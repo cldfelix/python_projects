@@ -12,5 +12,5 @@ RUN pip install -r requirements.txt
 COPY myapp.py .
 CMD ["python", "myapp.py"]
 
-# docker build -t pulkit/capturing:1.0 .
-# docker run -ti --name capturing pulkit/capturing:1.0
+# docker build -t myapp/capturing:1.0 .
+# docker run -ti --name capturing myapp/capturing:1.0
